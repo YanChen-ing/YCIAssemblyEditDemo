@@ -8,6 +8,7 @@ Easy to create editable page.
 1.Put folder YCIAssembledEdit to your project.
 
   将YCIAssembledEdit文件夹拖入工程中.
+  
 2.Create your class inherited YCIEditBaseViewController.h
 
   继承自YCIEditBaseViewController.h.
