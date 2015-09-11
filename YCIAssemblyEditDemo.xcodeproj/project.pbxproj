@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1600B3A81B82CB1F008CB595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600B3A71B82CB1F008CB595 /* main.m */; };
+		1600B3AB1B82CB1F008CB595 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600B3AA1B82CB1F008CB595 /* AppDelegate.m */; };
+		1600B3AE1B82CB1F008CB595 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600B3AD1B82CB1F008CB595 /* ViewController.m */; };
+		1600B3B11B82CB1F008CB595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1600B3AF1B82CB1F008CB595 /* Main.storyboard */; };
+		1600B3B31B82CB1F008CB595 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1600B3B21B82CB1F008CB595 /* Images.xcassets */; };
+		1600B3B61B82CB1F008CB595 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1600B3B41B82CB1F008CB595 /* LaunchScreen.xib */; };
+		1600B3C21B82CB20008CB595 /* YCIAssemblyEditDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600B3C11B82CB20008CB595 /* YCIAssemblyEditDemoTests.m */; };
+		1600B3CE1B82D39A008CB595 /* YCIEditBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600B3CD1B82D39A008CB595 /* YCIEditBaseViewController.m */; };
+		1600B3D31B82D3E3008CB595 /* YCITitleTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600B3D11B82D3E3008CB595 /* YCITitleTextFieldCell.m */; };
+		1600B3D41B82D3E3008CB595 /* YCITitleTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1600B3D21B82D3E3008CB595 /* YCITitleTextFieldCell.xib */; };
+		1600B3D81B82DAF8008CB595 /* YCITitleTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600B3D61B82DAF8008CB595 /* YCITitleTextViewCell.m */; };
+		1600B3D91B82DAF8008CB595 /* YCITitleTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1600B3D71B82DAF8008CB595 /* YCITitleTextViewCell.xib */; };
+		1600B3DD1B8306D9008CB595 /* YCITitleCallPickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600B3DB1B8306D9008CB595 /* YCITitleCallPickerViewCell.m */; };
+		1600B3DE1B8306D9008CB595 /* YCITitleCallPickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1600B3DC1B8306D9008CB595 /* YCITitleCallPickerViewCell.xib */; };
+		1600B3E71B8312FD008CB595 /* YCIPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1600B3E61B8312FD008CB595 /* YCIPickerView.m */; };
+		1600B3E91B831311008CB595 /* YCIPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1600B3E81B831311008CB595 /* YCIPickerView.xib */; };
+		1614A79C1B84604200EF3BFA /* YCIEditableCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1614A79B1B84604200EF3BFA /* YCIEditableCellViewModel.m */; };
+		16DCBB8C1B843258008503B6 /* YCICellDynamicHeightManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DCBB8B1B843258008503B6 /* YCICellDynamicHeightManager.m */; };
+		16DCCDD11B8571280028902F /* YCIModifyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DCCDD01B8571280028902F /* YCIModifyInfoViewController.m */; };
+		16DCCDD31B8573120028902F /* YCIEditableVC.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16DCCDD21B8573120028902F /* YCIEditableVC.plist */; };
+		16DCCDD61B85C7880028902F /* YCIDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DCCDD51B85C7880028902F /* YCIDatePickerView.m */; };
+		16DCCDD81B85C7A60028902F /* YCIDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DCCDD71B85C7A60028902F /* YCIDatePickerView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1600B3BC1B82CB20008CB595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1600B39A1B82CB1F008CB595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1600B3A11B82CB1F008CB595;
+			remoteInfo = YCIAssemblyEditDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1600B3A21B82CB1F008CB595 /* YCIAssemblyEditDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCIAssemblyEditDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1600B3A61B82CB1F008CB595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1600B3A71B82CB1F008CB595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1600B3A91B82CB1F008CB595 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1600B3AA1B82CB1F008CB595 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1600B3AC1B82CB1F008CB595 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1600B3AD1B82CB1F008CB595 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1600B3B01B82CB1F008CB595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1600B3B21B82CB1F008CB595 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1600B3B51B82CB1F008CB595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1600B3BB1B82CB20008CB595 /* YCIAssemblyEditDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCIAssemblyEditDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1600B3C01B82CB20008CB595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1600B3C11B82CB20008CB595 /* YCIAssemblyEditDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCIAssemblyEditDemoTests.m; sourceTree = "<group>"; };
+		1600B3CC1B82D39A008CB595 /* YCIEditBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCIEditBaseViewController.h; sourceTree = "<group>"; };
+		1600B3CD1B82D39A008CB595 /* YCIEditBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCIEditBaseViewController.m; sourceTree = "<group>"; };
+		1600B3D01B82D3E3008CB595 /* YCITitleTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCITitleTextFieldCell.h; sourceTree = "<group>"; };
+		1600B3D11B82D3E3008CB595 /* YCITitleTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCITitleTextFieldCell.m; sourceTree = "<group>"; };
+		1600B3D21B82D3E3008CB595 /* YCITitleTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCITitleTextFieldCell.xib; sourceTree = "<group>"; };
+		1600B3D51B82DAF8008CB595 /* YCITitleTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCITitleTextViewCell.h; sourceTree = "<group>"; };
+		1600B3D61B82DAF8008CB595 /* YCITitleTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCITitleTextViewCell.m; sourceTree = "<group>"; };
+		1600B3D71B82DAF8008CB595 /* YCITitleTextViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCITitleTextViewCell.xib; sourceTree = "<group>"; };
+		1600B3DA1B8306D9008CB595 /* YCITitleCallPickerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCITitleCallPickerViewCell.h; sourceTree = "<group>"; };
+		1600B3DB1B8306D9008CB595 /* YCITitleCallPickerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCITitleCallPickerViewCell.m; sourceTree = "<group>"; };
+		1600B3DC1B8306D9008CB595 /* YCITitleCallPickerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCITitleCallPickerViewCell.xib; sourceTree = "<group>"; };
+		1600B3E51B8312FD008CB595 /* YCIPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCIPickerView.h; sourceTree = "<group>"; };
+		1600B3E61B8312FD008CB595 /* YCIPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCIPickerView.m; sourceTree = "<group>"; };
+		1600B3E81B831311008CB595 /* YCIPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCIPickerView.xib; sourceTree = "<group>"; };
+		1614A7991B845AF400EF3BFA /* YCICellDynamicHeightManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCICellDynamicHeightManagerDelegate.h; sourceTree = "<group>"; };
+		1614A79A1B84604200EF3BFA /* YCIEditableCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCIEditableCellViewModel.h; sourceTree = "<group>"; };
+		1614A79B1B84604200EF3BFA /* YCIEditableCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCIEditableCellViewModel.m; sourceTree = "<group>"; };
+		16DCBB881B841FB7008503B6 /* YCIEditableCellMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCIEditableCellMethod.h; sourceTree = "<group>"; };
+		16DCBB8A1B843258008503B6 /* YCICellDynamicHeightManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCICellDynamicHeightManager.h; sourceTree = "<group>"; };
+		16DCBB8B1B843258008503B6 /* YCICellDynamicHeightManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCICellDynamicHeightManager.m; sourceTree = "<group>"; };
+		16DCCDCF1B8571280028902F /* YCIModifyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCIModifyInfoViewController.h; sourceTree = "<group>"; };
+		16DCCDD01B8571280028902F /* YCIModifyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCIModifyInfoViewController.m; sourceTree = "<group>"; };
+		16DCCDD21B8573120028902F /* YCIEditableVC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YCIEditableVC.plist; sourceTree = "<group>"; };
+		16DCCDD41B85C7880028902F /* YCIDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCIDatePickerView.h; sourceTree = "<group>"; };
+		16DCCDD51B85C7880028902F /* YCIDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCIDatePickerView.m; sourceTree = "<group>"; };
+		16DCCDD71B85C7A60028902F /* YCIDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCIDatePickerView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1600B39F1B82CB1F008CB595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1600B3B81B82CB20008CB595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1600B3991B82CB1F008CB595 = {
+			isa = PBXGroup;
+			children = (
+				1600B3A41B82CB1F008CB595 /* YCIAssemblyEditDemo */,
+				1600B3BE1B82CB20008CB595 /* YCIAssemblyEditDemoTests */,
+				1600B3A31B82CB1F008CB595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1600B3A31B82CB1F008CB595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1600B3A21B82CB1F008CB595 /* YCIAssemblyEditDemo.app */,
+				1600B3BB1B82CB20008CB595 /* YCIAssemblyEditDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1600B3A41B82CB1F008CB595 /* YCIAssemblyEditDemo */ = {
+			isa = PBXGroup;
+			children = (
+				16DCBB891B843258008503B6 /* YCIDynamicHeightManager */,
+				1600B3CB1B82D362008CB595 /* YCIAssembledEdit */,
+				1600B3A91B82CB1F008CB595 /* AppDelegate.h */,
+				1600B3AA1B82CB1F008CB595 /* AppDelegate.m */,
+				1600B3AC1B82CB1F008CB595 /* ViewController.h */,
+				1600B3AD1B82CB1F008CB595 /* ViewController.m */,
+				1600B3AF1B82CB1F008CB595 /* Main.storyboard */,
+				1600B3B21B82CB1F008CB595 /* Images.xcassets */,
+				1600B3B41B82CB1F008CB595 /* LaunchScreen.xib */,
+				1600B3A51B82CB1F008CB595 /* Supporting Files */,
+			);
+			path = YCIAssemblyEditDemo;
+			sourceTree = "<group>";
+		};
+		1600B3A51B82CB1F008CB595 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1600B3A61B82CB1F008CB595 /* Info.plist */,
+				1600B3A71B82CB1F008CB595 /* main.m */,
+				16DCCDD21B8573120028902F /* YCIEditableVC.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1600B3BE1B82CB20008CB595 /* YCIAssemblyEditDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1600B3C11B82CB20008CB595 /* YCIAssemblyEditDemoTests.m */,
+				1600B3BF1B82CB20008CB595 /* Supporting Files */,
+			);
+			path = YCIAssemblyEditDemoTests;
+			sourceTree = "<group>";
+		};
+		1600B3BF1B82CB20008CB595 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1600B3C01B82CB20008CB595 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1600B3CB1B82D362008CB595 /* YCIAssembledEdit */ = {
+			isa = PBXGroup;
+			children = (
+				1600B3CC1B82D39A008CB595 /* YCIEditBaseViewController.h */,
+				1600B3CD1B82D39A008CB595 /* YCIEditBaseViewController.m */,
+				16DCCDCF1B8571280028902F /* YCIModifyInfoViewController.h */,
+				16DCCDD01B8571280028902F /* YCIModifyInfoViewController.m */,
+				1600B3CF1B82D3B8008CB595 /* YCIEditCells */,
+				1600B3E51B8312FD008CB595 /* YCIPickerView.h */,
+				1600B3E61B8312FD008CB595 /* YCIPickerView.m */,
+				1600B3E81B831311008CB595 /* YCIPickerView.xib */,
+				16DCCDD41B85C7880028902F /* YCIDatePickerView.h */,
+				16DCCDD51B85C7880028902F /* YCIDatePickerView.m */,
+				16DCCDD71B85C7A60028902F /* YCIDatePickerView.xib */,
+			);
+			path = YCIAssembledEdit;
+			sourceTree = "<group>";
+		};
+		1600B3CF1B82D3B8008CB595 /* YCIEditCells */ = {
+			isa = PBXGroup;
+			children = (
+				16DCBB881B841FB7008503B6 /* YCIEditableCellMethod.h */,
+				1614A79A1B84604200EF3BFA /* YCIEditableCellViewModel.h */,
+				1614A79B1B84604200EF3BFA /* YCIEditableCellViewModel.m */,
+				1600B3D01B82D3E3008CB595 /* YCITitleTextFieldCell.h */,
+				1600B3D11B82D3E3008CB595 /* YCITitleTextFieldCell.m */,
+				1600B3D21B82D3E3008CB595 /* YCITitleTextFieldCell.xib */,
+				1600B3D51B82DAF8008CB595 /* YCITitleTextViewCell.h */,
+				1600B3D61B82DAF8008CB595 /* YCITitleTextViewCell.m */,
+				1600B3D71B82DAF8008CB595 /* YCITitleTextViewCell.xib */,
+				1600B3DA1B8306D9008CB595 /* YCITitleCallPickerViewCell.h */,
+				1600B3DB1B8306D9008CB595 /* YCITitleCallPickerViewCell.m */,
+				1600B3DC1B8306D9008CB595 /* YCITitleCallPickerViewCell.xib */,
+			);
+			path = YCIEditCells;
+			sourceTree = "<group>";
+		};
+		16DCBB891B843258008503B6 /* YCIDynamicHeightManager */ = {
+			isa = PBXGroup;
+			children = (
+				1614A7991B845AF400EF3BFA /* YCICellDynamicHeightManagerDelegate.h */,
+				16DCBB8A1B843258008503B6 /* YCICellDynamicHeightManager.h */,
+				16DCBB8B1B843258008503B6 /* YCICellDynamicHeightManager.m */,
+			);
+			path = YCIDynamicHeightManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1600B3A11B82CB1F008CB595 /* YCIAssemblyEditDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1600B3C51B82CB20008CB595 /* Build configuration list for PBXNativeTarget "YCIAssemblyEditDemo" */;
+			buildPhases = (
+				1600B39E1B82CB1F008CB595 /* Sources */,
+				1600B39F1B82CB1F008CB595 /* Frameworks */,
+				1600B3A01B82CB1F008CB595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCIAssemblyEditDemo;
+			productName = YCIAssemblyEditDemo;
+			productReference = 1600B3A21B82CB1F008CB595 /* YCIAssemblyEditDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1600B3BA1B82CB20008CB595 /* YCIAssemblyEditDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1600B3C81B82CB20008CB595 /* Build configuration list for PBXNativeTarget "YCIAssemblyEditDemoTests" */;
+			buildPhases = (
+				1600B3B71B82CB20008CB595 /* Sources */,
+				1600B3B81B82CB20008CB595 /* Frameworks */,
+				1600B3B91B82CB20008CB595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1600B3BD1B82CB20008CB595 /* PBXTargetDependency */,
+			);
+			name = YCIAssemblyEditDemoTests;
+			productName = YCIAssemblyEditDemoTests;
+			productReference = 1600B3BB1B82CB20008CB595 /* YCIAssemblyEditDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1600B39A1B82CB1F008CB595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yanchen;
+				TargetAttributes = {
+					1600B3A11B82CB1F008CB595 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1600B3BA1B82CB20008CB595 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1600B3A11B82CB1F008CB595;
+					};
+				};
+			};
+			buildConfigurationList = 1600B39D1B82CB1F008CB595 /* Build configuration list for PBXProject "YCIAssemblyEditDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1600B3991B82CB1F008CB595;
+			productRefGroup = 1600B3A31B82CB1F008CB595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1600B3A11B82CB1F008CB595 /* YCIAssemblyEditDemo */,
+				1600B3BA1B82CB20008CB595 /* YCIAssemblyEditDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1600B3A01B82CB1F008CB595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1600B3B11B82CB1F008CB595 /* Main.storyboard in Resources */,
+				16DCCDD31B8573120028902F /* YCIEditableVC.plist in Resources */,
+				1600B3DE1B8306D9008CB595 /* YCITitleCallPickerViewCell.xib in Resources */,
+				16DCCDD81B85C7A60028902F /* YCIDatePickerView.xib in Resources */,
+				1600B3B61B82CB1F008CB595 /* LaunchScreen.xib in Resources */,
+				1600B3E91B831311008CB595 /* YCIPickerView.xib in Resources */,
+				1600B3D41B82D3E3008CB595 /* YCITitleTextFieldCell.xib in Resources */,
+				1600B3D91B82DAF8008CB595 /* YCITitleTextViewCell.xib in Resources */,
+				1600B3B31B82CB1F008CB595 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1600B3B91B82CB20008CB595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1600B39E1B82CB1F008CB595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1600B3DD1B8306D9008CB595 /* YCITitleCallPickerViewCell.m in Sources */,
+				1600B3AE1B82CB1F008CB595 /* ViewController.m in Sources */,
+				1600B3AB1B82CB1F008CB595 /* AppDelegate.m in Sources */,
+				16DCCDD11B8571280028902F /* YCIModifyInfoViewController.m in Sources */,
+				1600B3E71B8312FD008CB595 /* YCIPickerView.m in Sources */,
+				1600B3D81B82DAF8008CB595 /* YCITitleTextViewCell.m in Sources */,
+				1600B3D31B82D3E3008CB595 /* YCITitleTextFieldCell.m in Sources */,
+				1614A79C1B84604200EF3BFA /* YCIEditableCellViewModel.m in Sources */,
+				1600B3A81B82CB1F008CB595 /* main.m in Sources */,
+				16DCBB8C1B843258008503B6 /* YCICellDynamicHeightManager.m in Sources */,
+				16DCCDD61B85C7880028902F /* YCIDatePickerView.m in Sources */,
+				1600B3CE1B82D39A008CB595 /* YCIEditBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1600B3B71B82CB20008CB595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1600B3C21B82CB20008CB595 /* YCIAssemblyEditDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1600B3BD1B82CB20008CB595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1600B3A11B82CB1F008CB595 /* YCIAssemblyEditDemo */;
+			targetProxy = 1600B3BC1B82CB20008CB595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1600B3AF1B82CB1F008CB595 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1600B3B01B82CB1F008CB595 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1600B3B41B82CB1F008CB595 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1600B3B51B82CB1F008CB595 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1600B3C31B82CB20008CB595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1600B3C41B82CB20008CB595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1600B3C61B82CB20008CB595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YCIAssemblyEditDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5f4308d0-aa43-4fbf-b8bd-4ae60b9b4f38";
+			};
+			name = Debug;
+		};
+		1600B3C71B82CB20008CB595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YCIAssemblyEditDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5f4308d0-aa43-4fbf-b8bd-4ae60b9b4f38";
+			};
+			name = Release;
+		};
+		1600B3C91B82CB20008CB595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YCIAssemblyEditDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCIAssemblyEditDemo.app/YCIAssemblyEditDemo";
+			};
+			name = Debug;
+		};
+		1600B3CA1B82CB20008CB595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YCIAssemblyEditDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCIAssemblyEditDemo.app/YCIAssemblyEditDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1600B39D1B82CB1F008CB595 /* Build configuration list for PBXProject "YCIAssemblyEditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1600B3C31B82CB20008CB595 /* Debug */,
+				1600B3C41B82CB20008CB595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1600B3C51B82CB20008CB595 /* Build configuration list for PBXNativeTarget "YCIAssemblyEditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1600B3C61B82CB20008CB595 /* Debug */,
+				1600B3C71B82CB20008CB595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1600B3C81B82CB20008CB595 /* Build configuration list for PBXNativeTarget "YCIAssemblyEditDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1600B3C91B82CB20008CB595 /* Debug */,
+				1600B3CA1B82CB20008CB595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1600B39A1B82CB1F008CB595 /* Project object */;
+}

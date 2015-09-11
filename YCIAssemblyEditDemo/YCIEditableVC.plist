@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>YCIModifyInfoViewController</key>
+	<array>
+		<dict>
+			<key>cellName</key>
+			<string>YCITitleTextFieldCell</string>
+			<key>type</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>姓名</string>
+			<key>supplement</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>cellName</key>
+			<string>YCITitleTextFieldCell</string>
+			<key>type</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>年龄</string>
+			<key>supplement</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>cellName</key>
+			<string>YCITitleTextFieldCell</string>
+			<key>type</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>性别</string>
+			<key>supplement</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>cellName</key>
+			<string>YCITitleTextViewCell</string>
+			<key>type</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>备注</string>
+			<key>supplement</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>cellName</key>
+			<string>YCITitleCallPickerViewCell</string>
+			<key>type</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>选择测试</string>
+			<key>supplement</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>
